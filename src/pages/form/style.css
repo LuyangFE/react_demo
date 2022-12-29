@@ -1,0 +1,17 @@
+.content {
+  padding: 24px 64px;
+}
+.ant-form-item-explain-error {
+  background: #ff716f;
+  color: #fff !important;
+  margin-top: 6px;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+.ant-form-item-explain-connected {
+  width: auto;
+}
+.ant-input-status-success {
+  border-color: #65d6c2;
+}
