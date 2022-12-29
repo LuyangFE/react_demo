@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { getMaterialList } from "../../api";
-import { Spin } from "antd";
+import { useEffect, useState } from 'react';
+import { getMaterialList } from '../../api';
+import { Spin } from 'antd';
 import Card from './components/card';
-import "./style.css";
+import './style.css';
 
 export interface data {
   id: number,

@@ -1,5 +1,5 @@
-import React, { FunctionComponent } from "react";
-import { Image, Tag } from "antd";
+import React from 'react';
+import { Image, Tag } from 'antd';
 import {
   ShareAltOutlined,
   DownloadOutlined,
