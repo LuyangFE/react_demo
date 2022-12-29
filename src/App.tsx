@@ -2,6 +2,7 @@ import "./App.css";
 import { Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import 'antd/dist/antd.min.css'
+import 'antd/dist/reset.css';
 import List from "./pages/list";
 import Form from "./pages/form";
 
