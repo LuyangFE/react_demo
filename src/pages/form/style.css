@@ -10,7 +10,7 @@
   font-size: 12px;
 }
 .ant-form-item-explain-connected {
-  width: auto;
+  width: auto !important;
 }
 .ant-input-status-success {
   border-color: #65d6c2;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Space, Table, Button, Modal, Divider, Form } from 'antd';
+import { Space, Table, Button, Modal, Divider, Form, FloatButton } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
 import './style.css';
 import BasicForm from './components/form';
@@ -44,7 +44,7 @@ const initForm = () => {
       const res = data.slice();
       value.users.map((item: any) => {
         const User: DataType = {
-          key: item.phone,
+          key: res.length,
           name: item.name,
           email: item.email,
           phone: item.phone,
@@ -63,6 +63,13 @@ const initForm = () => {
   };
   return (
     <div className="content">
+      <FloatButton
+        type="primary"
+        shape="square"
+        description="List"
+        style={{ 'width': 100, 'right': 'calc(50% - 50px)' }}
+        href="/list"
+      />
       <div>
         <Button style={{ margin: '12px 0' }} type="primary" onClick={ () => showModal() }>
           添加企业成员

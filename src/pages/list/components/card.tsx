@@ -31,7 +31,7 @@ class Card extends React.Component {
               'objectFit': 'contain',
               'width': '100%',
               'height': '180px',
-              'background': '#cfcfcf',
+              'backgroundImage': 'url(https://zos.alipayobjects.com/rmsportal/RmjwQiJorKyobvI.jpg)',
               'borderRadius': '4px 4px 0 0'
             }
           }
