@@ -13,6 +13,7 @@
   flex-direction: column;
 }
 .title {
+  color: #000;
   height: 50px;
   font-size: 14px;
   overflow: hidden;
