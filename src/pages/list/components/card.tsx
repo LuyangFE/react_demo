@@ -43,7 +43,7 @@ class Card extends React.Component {
           <div className="title">
             { this.props.item.name }
           </div>
-          <div style={{ display: 'flex', margin: '4px 0' }}>
+          <div style={{ display: 'flex', margin: '4px 0', color: '#000' }}>
             <div>
               <ShareAltOutlined /> { this.props.item.shareNum }
             </div>
